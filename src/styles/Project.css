@@ -1,0 +1,95 @@
+.nav-project {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 10px;
+    position: fixed;
+    width: 1480px;
+    height: 50px;
+    margin-top: 70px;
+    margin-left: 16px;
+  }
+  
+.navItem-project {
+    color: #6a75ca;
+    cursor: pointer;
+    padding: 100px;
+}
+
+.projectTitle {
+    position: fixed;
+    margin-top: 300px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #6a75ca;
+}
+
+/* project섹션 */
+.section-project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 180px;
+    position: fixed;
+    margin-top: 1500px;
+  }
+  
+  .section-project h2 {
+    margin: 0 auto;
+    display: inline-block;
+    color: #6a75ca;
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .box-project {
+    margin: 30px auto;
+    display: flex;
+    padding: 35px;
+    width: 1000px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .img-project {
+    border-radius: 15px;
+    width: 452px;
+    margin-bottom: 25px;
+  }
+  
+  .btn-detail {
+    cursor: pointer;
+    padding: 10px 172px;
+    border-radius: 15px;
+    border: none;
+    background-color: #6a75ca;
+    border: solid 2px #6a75ca;
+    color: white;
+    font-size: 20px;
+  }
+  .btn-detail:hover {
+    background-color: white;
+    border: solid 2px #6a75ca;
+    color: #6a75ca;
+  }
+  .txt-project {
+    text-align: left;
+    margin: 25px 0 0 40px;
+  }
+  .txt-project h3 {
+    color: #6a75ca;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 35px;
+    margin-bottom: 30px;
+    padding-right: 30px;
+  }
+  .txt-project dl dt {
+    color: #6a75ca;
+    font-size: 22px;
+    margin-bottom: 6px;
+  }
+  .txt-project dl dd {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }

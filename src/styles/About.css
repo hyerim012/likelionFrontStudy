@@ -1,0 +1,37 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    position: fixed;
+    width: 1480px;
+    height: 50px;
+    z-index: 100;
+    top: -70px;
+  }
+  
+.navItem {
+    color: #6a75ca;
+    cursor: pointer;
+    padding: 100px;
+}
+
+.aboutTitle {
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 50px;
+    font-weight: 700;
+    color: #6a75ca;
+}
+
+.contentWrapper {
+    position: absolute;
+    top: 200px;
+}
+
+.at {
+    font-weight: 700;
+    margin-right: 10px;
+    color: #6a75ca;
+}

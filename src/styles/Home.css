@@ -1,0 +1,31 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    position: fixed;
+    width: 1480px;
+    height: 50px;
+    z-index: 100;
+    margin-top: 70px;
+  }
+  
+.navItem {
+    color: #6a75ca;
+    cursor: pointer;
+    padding: 100px;
+}
+
+.insa {
+    margin-top: 500px;
+    position: absolute;
+    font-size: 50px;
+    font-weight: 700;
+    color: #6a75ca;
+}
+  
+.profile {
+    margin-top: 900px;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+}

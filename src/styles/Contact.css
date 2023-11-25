@@ -1,0 +1,45 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 10px;
+    position: fixed;
+    width: 1480px;
+    height: 50px;
+    z-index: 100;
+    margin-top: 70px;
+  }
+  
+.navItem {
+    color: #6a75ca;
+    cursor: pointer;
+    padding: 100px;
+}
+
+.contactTitle {
+    position: fixed;
+    margin-top: 300px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #6a75ca;
+}
+
+.imgs {
+    margin-right: 50px;
+}
+
+.gmailImg {
+    margin-top: 700px;
+    margin-left: -50px;
+    width: 180px;
+    height: 180px;
+    position: fixed;
+}
+
+.gitImg {
+    width: 72px;
+    height: 72px;
+    margin-top: 690px;
+    margin-left: 180px;
+    position: fixed;
+}
